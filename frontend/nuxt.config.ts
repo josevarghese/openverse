@@ -32,7 +32,7 @@ const favicons = [
 const isProdNotPlaywright = isProd && !(process.env.PW === "true")
 const isTest = process.env.TEST === "true"
 
-const additionalLocales = isTest ? locales : []
+const additionalLocales = isTest ? locales : locales
 
 const openverseLocales = [
   {
